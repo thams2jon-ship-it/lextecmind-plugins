@@ -15,9 +15,15 @@
         "name": "Jonathan Gadelha",
         "email": "ia.jonathangam2@gmail.com"
       },
-      "source": ".",
+      "source": "./plugins/mcp-pje",
       "category": "legal",
-      "keywords": ["pje", "justiça eleitoral", "jurídico", "processo", "minutas"]
+      "keywords": [
+        "pje",
+        "justiça eleitoral",
+        "jurídico",
+        "processo",
+        "minutas"
+      ]
     }
   ]
 }
