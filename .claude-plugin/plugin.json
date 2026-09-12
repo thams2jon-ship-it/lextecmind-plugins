@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "mcp-pje",
+  "version": "1.0.0",
+  "description": "Consulta aos dados e às peças processuais oficiais do PJe, com rotinas programadas de análise e entrega das minutas no Drive ou em pasta local.",
+  "author": {
+    "name": "Jonathan Gadelha",
+    "email": "ia.jonathangam2@gmail.com"
+  },
+  "homepage": "https://mcp-pje-no-claudecode-jonathangadelha.netlify.app/",
+  "keywords": ["pje", "justiça eleitoral", "jurídico", "processo", "minutas"],
+  "mcpServers": {
+    "pje": {
+      "command": "pje-mcp",
+      "args": [],
+      "env": {
+        "PYTHONIOENCODING": "utf-8"
+      }
+    }
+  }
+}

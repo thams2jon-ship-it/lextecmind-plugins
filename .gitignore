@@ -1,0 +1,8 @@
+# Nada de codigo, segredo ou pacote neste repositorio.
+# Ele guarda apenas as fichas dos plugins.
+*.whl
+*.key
+.env
+.secrets/
+dist/
+src/

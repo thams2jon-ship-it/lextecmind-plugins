@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "lextecmind",
+  "description": "Ferramentas da LexTecMind para o Direito Eleitoral no Claude Code",
+  "owner": {
+    "name": "Jonathan Gadelha",
+    "email": "ia.jonathangam2@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "mcp-pje",
+      "description": "Consulta aos dados e às peças processuais oficiais do PJe, com rotinas programadas de análise e entrega das minutas no Drive ou em pasta local. Exige chave de acesso.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Jonathan Gadelha",
+        "email": "ia.jonathangam2@gmail.com"
+      },
+      "source": ".",
+      "category": "legal",
+      "keywords": ["pje", "justiça eleitoral", "jurídico", "processo", "minutas"]
+    }
+  ]
+}
