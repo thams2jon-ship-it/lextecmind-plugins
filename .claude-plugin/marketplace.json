@@ -10,7 +10,7 @@
     {
       "name": "mcp-pje",
       "description": "Consulta aos dados e às peças processuais oficiais do PJe, com rotinas programadas de análise e entrega das minutas no Drive ou em pasta local. Exige chave de acesso.",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "author": {
         "name": "Jonathan Gadelha",
         "email": "ia.jonathangam2@gmail.com"

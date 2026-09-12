@@ -17,11 +17,15 @@ computador. Sem ela, o plugin instala mas nenhuma ferramenta responde.
 
 ### Instalação
 
-A instalação é feita na sessão de implantação, em dois passos:
+A instalação é feita na sessão de implantação, em três passos — **nesta ordem**:
 
 1. **O programa**, com o instalador fornecido junto da chave de acesso.
-2. **O plugin**, no Claude Code: *Configurações → Plugins → Adicionar*, e então
+2. **O idioma do OCR**, para as peças digitalizadas serem lidas em português.
+3. **O plugin**, no Claude Code: *Configurações → Plugins → Adicionar*, e então
    o endereço deste repositório.
+
+A ordem importa: instalado o plugin antes do programa, o Claude registra um
+plugin que não tem o que executar, e nada funciona sem nenhum erro claro.
 
 Na primeira pergunta sobre o PJe, abre uma janela pedindo a chave de acesso, o
 tribunal, o CPF e a senha. Os dados ficam no cofre de credenciais do Windows,
